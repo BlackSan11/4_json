@@ -2,12 +2,15 @@ import json
 
 
 def load_data(filepath):
-    pass
-
+    f = open(filepath, "r")
+    filetext = f.read()
+    return filetext
 
 def pretty_print_json(data):
-    pass
-
+    print(data)
+    res = json.loads(data)
+    print(json.dumps(res, sort_keys=True, indent=4))
 
 if __name__ == '__main__':
-    pass
+    pyth = input('Enter pyth: ')
+    pretty_print_json(load_data(pyth))
