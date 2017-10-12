@@ -1,20 +1,15 @@
-# Prettify JSON
+# Что делает?
 
-[TODO. There will be project description]
+Код загружает из файла ваш JSON текст и выводит его в человекопонятном виде, производя так называемый Prettyprint.
 
-# Quickstart
+# Требования к окружению.
 
-[TODO]
+Скрипт запускается с помощью Python версии 3.x. 
 
-Example of script launch on Linux, Python 3.5:
+# Как установить?
 
-```#!bash
+Все что вам нужно это скачать архив себе на компьютер и распаковать в любом месте.
 
-$ python pprint_json.py <path to file>
-# TODO add output example
+# Как использовать?
 
-```
-
-# Project Goals
-
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Просто запустите файл pprint_json и в консоли пропишите путь к файлу с JSON текстом, программа тут же выведет вам преобразованный JSON
