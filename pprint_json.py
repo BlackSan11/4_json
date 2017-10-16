@@ -1,4 +1,4 @@
-import json
+import json, sys
 
 def load_data(filepath):
     file_with_json = open(filepath, "r")
@@ -10,5 +10,5 @@ def pretty_print_json(json_for_handling):
     print(json.dumps(loaded_json, sort_keys=True, indent=4))
 
 if __name__ == '__main__':
-    path = input('Enter path to JSON file: ')
+    path = sys.argv[1]
     pretty_print_json(load_data(path))
