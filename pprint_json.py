@@ -4,7 +4,8 @@ import sys
 
 def load_data(filepath):
     with open(filepath, "r") as file_with_json:
-        loaded_json = file_with_json.json.load
+        json_from_file = file_with_json.read()
+        loaded_json = json.loads(json_from_file)
         return loaded_json
 
 
