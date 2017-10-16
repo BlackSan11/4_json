@@ -17,7 +17,8 @@
 
 пусть файл json.txt находится в одном каталоге с файлом pprint_json.py
 содержимое файла json.txt: 
-```js{"firstName": "Иван","lastName": "Иванов","address": {"streetAddress": "Московское ш., 101, кв.101","city":"Ленинград","postalCode": 101101},"phoneNumbers": ["812 123-1234","916 123-4567"]}
+```js
+{"firstName": "Иван","lastName": "Иванов","address": {"streetAddress": "Московское ш., 101, кв.101","city":"Ленинград","postalCode": 101101},"phoneNumbers": ["812 123-1234","916 123-4567"]}
 ```
 запускаем pprint_json.py и в качестве аргумента передаем путь к файлу json.txt
 
