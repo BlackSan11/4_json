@@ -36,7 +36,7 @@ python pprint_json.py json.txt
    },
    "phoneNumbers": [
        "812 123-1234",
-       "916 123-4567"d
+       "916 123-4567"
    ]
 }
 ```
