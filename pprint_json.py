@@ -9,7 +9,8 @@ def load_data(filepath):
 
 
 def reformat_json(json_for_handling):
-    return json.dumps(json_for_handling, sort_keys=True, indent=4, ensure_ascii=False)
+    return json.dumps(json_for_handling, sort_keys=True, indent=4,
+                      ensure_ascii=False)
 
 
 if __name__ == '__main__':
